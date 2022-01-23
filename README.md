@@ -21,3 +21,9 @@ Development dependencies are:
 
 * mvn clean install (for installing all the dependencies)
 * java -jar target\JAR_NAME.jar (to execute project)
+
+# Accessing an application
+* Deployed Application By-Default can be accessed on port 8081 forexample http://IP_ADDRESS:8081
+* This application has two end points :
+* Default http://IP_ADDRESS:8081
+* User : http://IP_ADDRESS:8081/welcome/<USERNAME>
