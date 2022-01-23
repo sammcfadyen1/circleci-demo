@@ -35,7 +35,7 @@ public class WebPageController {
 
     @GetMapping("/")
     public String index() {
-        return "<html> <b>This is TechnoTrainer Java based Application for HandsOn Demo.</b></html>";
+        return "<html> <b>This is TechnoTrainer's Java based SpringBoot Application for Demonstration.</b></html>";
     }
 
     @GetMapping(value = {"/welcome", "/welcome/{user}"})
