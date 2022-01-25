@@ -1,5 +1,5 @@
 {
     "all": true,
-    "failOn": "high",
+    "failOn": "critical",
     "showCode": true
 }
